@@ -3,80 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad para EPARKING-TDF</title>
+    <title>Política de Privacidad - TDF Tierra de Froy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.7;
-            background-color: #f8f9fa; /* Fondo gris muy claro */
-            color: #495057; /* Color de texto principal (gris oscuro) */
+            font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            background-color: #f4f7f9; /* Fondo de la página ligeramente azulado */
+            color: #555; /* Color de texto principal */
             margin: 0;
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 40px auto;
-            background-color: #ffffff; /* Contenedor blanco */
-            padding: 40px;
-            border-radius: 8px; /* Bordes redondeados */
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra sutil */
-            border: 1px solid #dee2e6; /* Borde ligero */
+            background-color: #ffffff;
+            padding: 0;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+            border: 1px solid #e7eaf3;
+            overflow: hidden;
         }
-        h1 {
-            color: #212529; /* Títulos principales más oscuros */
-            font-size: 2.25rem;
-            font-weight: 700;
-            border-bottom: 2px solid #e9ecef; /* Línea separadora */
-            padding-bottom: 15px;
-            margin-bottom: 25px;
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); /* Tono más corporativo */
+            color: #ffffff;
+            padding: 40px 50px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        .content {
+            padding: 40px 50px;
         }
         h2 {
-            color: #343a40; /* Subtítulos */
-            font-size: 1.5rem;
-            font-weight: 500;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            border-left: 4px solid #007bff; /* Acento de color */
-            padding-left: 15px;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #2c3e50; /* Color de título principal */
+            margin-top: 45px;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #e7eaf3;
+            display: flex;
+            align-items: center;
+        }
+        h2 svg {
+            margin-right: 15px;
+            color: #2c3e50;
         }
         h3 {
-            color: #343a40;
-            font-size: 1.2rem;
-            font-weight: 500;
-            margin-top: 30px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #34495e; /* Color de subtítulo */
+            margin-top: 35px;
+            margin-bottom: 15px;
         }
         p, ul {
             font-size: 1rem;
             text-align: justify;
+            color: #555;
         }
         ul {
-            padding-left: 25px;
-            list-style-type: '✓  '; /* Icono de check para las listas */
+            padding-left: 20px;
+            list-style: none;
         }
         li {
-            margin-bottom: 12px;
-            padding-left: 5px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            position: relative;
+        }
+        li::before {
+            content: '✓';
+            position: absolute;
+            left: -10px;
+            top: 2px;
+            color: #2c3e50; /* Color de check */
+            font-weight: 700;
         }
         strong, b {
-            color: #212529;
-            font-weight: 500;
+            font-weight: 600;
+            color: #222;
         }
         .meta-info {
-            background-color: #e9ecef;
-            border-left: 4px solid #6c757d;
-            padding: 15px 20px;
-            border-radius: 4px;
-            font-size: 0.95rem;
-            color: #495057;
+            background-color: #f8f9fa;
+            border: 1px solid #e7eaf3;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin: 25px 0;
+            line-height: 1.7;
+        }
+        .meta-info strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .contact-card {
+            background-color: #f0f3f5; /* Fondo de tarjeta de contacto */
+            border-left: 5px solid #2c3e50;
+            padding: 25px 30px;
+            border-radius: 8px;
+            margin-top: 40px;
         }
         a {
-            color: #007bff;
+            color: #3498db; /* Un azul más vibrante para enlaces */
             text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
         }
         a:hover {
+            color: #2980b9;
             text-decoration: underline;
         }
     </style>
@@ -84,101 +130,111 @@
 <body>
 
     <div class="container">
-        <h1>Política de Privacidad</h1>
-
-        <div class="meta-info">
-            <strong>Aplicación:</strong> EPARKING-TDF<br>
-            <strong>Operador:</strong> TIERRADEFROY (TDF)<br>
-            <strong>Fecha de Vigencia:</strong> 16 de julio de 2025
+        <div class="header">
+            <h1>Política de Privacidad</h1>
+            <p>TDF Tierra de Froy: Su confianza es nuestra prioridad.</p>
         </div>
 
-        <p style="margin-top: 25px;">
-            TIERRADEFROY (TDF) ("nosotros", "nuestro") opera la aplicación móvil EPARKING-TDF (en adelante, el "Servicio"). Esta página le informa de nuestras políticas en materia de recopilación, uso y divulgación de datos personales cuando utiliza nuestro Servicio y de las opciones de las que dispone en relación con dichos datos. Utilizamos sus datos para prestar, proteger y mejorar el Servicio. Al utilizar el Servicio, usted acepta la recopilación y el uso de la información de acuerdo con esta política.
-        </p>
+        <div class="content">
+            <div class="meta-info">
+                <strong>Operador:</strong> TDF Tierra de Froy<br>
+                <strong>Aplicable a:</strong> Todas nuestras aplicaciones y servicios<br>
+                <strong>Fecha de Vigencia:</strong> 30 de julio de 2025
+            </div>
 
-        <h2>Recopilación y Uso de la Información</h2>
-        <p>Recopilamos diferentes tipos de información con diversas finalidades para prestarle y mejorar nuestro Servicio.</p>
+            <p>
+                <b>TDF Tierra de Froy</b> ("nosotros", "nuestro") opera diversas aplicaciones móviles y servicios digitales (en adelante, conjuntamente denominados el "Servicio"). Esta página le informa sobre nuestras políticas en materia de recopilación, uso y divulgación de datos personales cuando utiliza nuestro Servicio y de las opciones de las que dispone en relación con dichos datos. Utilizamos sus datos para prestar, proteger y mejorar continuamente el Servicio. Al utilizar cualquiera de nuestras aplicaciones o servicios, usted acepta la recopilación y el uso de la información de acuerdo con esta política.
+            </p>
 
-        <h3>Tipos de Datos Recopilados</h3>
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                Recopilación y Uso de Información
+            </h2>
+            <p>Recopilamos diferentes tipos de información con diversas finalidades para prestarle y mejorar nuestros Servicios de manera efectiva y segura.</p>
 
-        <h4>Datos Personales que nos Proporcionas Directamente</h4>
-        <p>
-            Mientras utiliza nuestro Servicio, es posible que le pidamos que nos proporcione cierta información de identificación personal que puede ser utilizada para contactarle, identificarle y habilitar las funciones de la aplicación ("Datos Personales"). La información de identificación personal que recopilamos incluye:
-        </p>
-        <ul>
-            <li><strong>Nombre, apodo o nombre de usuario:</strong> Para personalizar su experiencia en la aplicación.</li>
-            <li><strong>Dirección de correo electrónico:</strong> Para la creación de su cuenta y comunicación.</li>
-            <li><strong>Número de teléfono:</strong> Para la verificación de la cuenta y otras funciones del Servicio.</li>
-            <li><strong>Contraseñas o información de autenticación:</strong> Recopilamos esta información con el único propósito de crear y proteger su cuenta y permitir la funcionalidad de respaldo de la aplicación.</li>
-            <li><strong>Fecha de nacimiento y género:</strong> Para la personalización del perfil y análisis demográfico agregado.</li>
-        </ul>
-        
-        <h4>Datos que Recopilamos Automáticamente</h4>
-        <p>
-            Recopilamos información sobre su dispositivo y cómo interactúa con nuestro Servicio ("Datos de Uso"):
-        </p>
-        <ul>
-            <li><strong>Registros de fallos (Crash Logs):</strong> Para identificar y solucionar errores técnicos, utilizamos servicios como Firebase Crashlytics que recopilan información sobre fallos en la aplicación.</li>
-            <li><strong>Datos de rendimiento y análisis:</strong> Para entender cómo se utiliza nuestro Servicio y mejorarlo, medimos interacciones como las pantallas que visita y los botones que pulsa, utilizando servicios como Google Analytics for Firebase.</li>
-            <li><strong>Identificadores del dispositivo:</strong> Recopilamos identificadores como el ID de publicidad de Google y el ID de Android. Estos se utilizan para análisis y para mostrar publicidad relevante.</li>
-        </ul>
+            <h3>1. Datos que nos Proporciona Directamente</h3>
+            <p>Al utilizar nuestros Servicios, es posible que le solicitemos información de identificación personal ("Datos Personales") para contactarle, identificarle y habilitar funciones clave. Esto incluye:</p>
+            <ul>
+                <li><b>Información de Cuenta:</b> Nombre, apodo, nombre de usuario, dirección de correo electrónico y número de teléfono para crear y gestionar su cuenta.</li>
+                <li><b>Autenticación:</b> Contraseñas o credenciales similares, que se recopilan de forma segura únicamente para proteger su cuenta y permitir funcionalidades como respaldos.</li>
+                <li><b>Datos Demográficos:</b> Fecha de nacimiento y género, utilizados para personalizar su perfil y para análisis estadísticos agregados y anónimos.</li>
+            </ul>
 
-        <h4>Datos Recopilados con tu Permiso Específico</h4>
-        <p>
-            Ciertas funciones de nuestra aplicación requieren acceso a datos adicionales, que solo se recopilarán si usted otorga un permiso explícito a través del diálogo del sistema operativo de su dispositivo:
-        </p>
-        <ul>
-            <li><strong>Ubicación (Aproximada o Precisa):</strong> Solicitaremos su permiso para acceder a la ubicación con el fin de localizar y conectar dispositivos Bluetooth (BT) necesarios para el funcionamiento de características específicas del Servicio. No rastreamos su ubicación en segundo plano sin un propósito activo.</li>
-            <li><strong>Cámara:</strong> Solicitaremos su permiso para acceder a la cámara con el único propósito de escanear códigos QR necesarios para funcionalidades específicas de la aplicación. No almacenamos imágenes ni videos de su cámara.</li>
-        </ul>
+            <h3>2. Datos que Recopilamos Automáticamente</h3>
+            <p>Recopilamos información sobre su dispositivo y cómo interactúa con nuestros Servicios ("Datos de Uso") para optimizar la experiencia y garantizar la estabilidad:</p>
+            <ul>
+                <li><b>Registros de Errores (Crash Logs):</b> Para identificar y solucionar errores técnicos, servicios como Firebase Crashlytics recopilan información anónima sobre fallos.</li>
+                <li><b>Análisis de Rendimiento:</b> Medimos interacciones (pantallas visitadas, funciones utilizadas) con herramientas como Google Analytics for Firebase para entender y mejorar la usabilidad del Servicio.</li>
+                <li><b>Identificadores del Dispositivo:</b> Como el ID de publicidad de Google, utilizados para análisis y para la personalización de anuncios relevantes.</li>
+            </ul>
 
-        <h2>Uso de los Datos</h2>
-        <p>EPARKING-TDF utiliza los datos recopilados con las siguientes finalidades:</p>
-        <ul>
-            <li>Para prestar, mantener y proteger nuestro Servicio.</li>
-            <li>Para crear y gestionar su cuenta de usuario.</li>
-            <li>Para permitir la funcionalidad de respaldo de sus datos en la app.</li>
-            <li>Para personalizar su experiencia dentro del Servicio.</li>
-            <li>Para prestar asistencia al cliente.</li>
-            <li>Para recoger análisis que nos permitan mejorar la usabilidad y las características de nuestro Servicio.</li>
-            <li>Para supervisar el uso de nuestro Servicio y detectar, prevenir y abordar problemas técnicos y de seguridad.</li>
-            <li>Para mostrar anuncios relevantes a través de servicios de terceros como Google AdMob.</li>
-        </ul>
+            <h3>3. Datos Recopilados con su Permiso Específico</h3>
+            <p>Ciertas funciones en nuestras aplicaciones requieren acceso a datos adicionales, los cuales solo se recopilarán si usted otorga un permiso explícito a través de los diálogos del sistema operativo de su dispositivo:</p>
+            <ul>
+                <li><b>Ubicación (Aproximada o Precisa):</b> Solicitada para funcionalidades que dependen de la geolocalización. No rastreamos su ubicación en segundo plano.</li>
+                <li><b>Cámara:</b> Solicitada únicamente para escanear códigos QR u otras funcionalidades que requieran el uso de la cámara en tiempo real. No almacenamos imágenes ni videos.</li>
+            </ul>
 
-        <h2>Almacenamiento y Divulgación de Datos</h2>
-        <p>
-            Valoramos su privacidad. No vendemos su información personal. Sus datos pueden ser almacenados y procesados a través de los siguientes servicios de terceros que son esenciales para el funcionamiento de la aplicación:
-        </p>
-        <ul>
-            <li><strong>Bases de datos en la nube (Firebase):</strong> Utilizamos Firebase Realtime Database o Firestore para almacenar de forma segura la información de su cuenta y los datos de la aplicación.</li>
-            <li><strong>Proveedores de Análisis (Google Analytics for Firebase):</strong> Compartimos datos de uso anónimos y agregados para entender cómo interactúa con nuestra aplicación y mejorarla.</li>
-            <li><strong>Proveedores de Publicidad (Google AdMob):</strong> Google AdMob, nuestro proveedor de publicidad, utiliza el ID de publicidad de su dispositivo para mostrar anuncios que pueden ser de su interés. Puede gestionar sus preferencias de anuncios en la configuración de su dispositivo Google.</li>
-            <li><strong>Informes de Errores (Firebase Crashlytics):</strong> En caso de un fallo en la aplicación, se envía un informe técnico a Firebase para ayudarnos a solucionar el problema. Este informe incluye información sobre el dispositivo y el estado de la app, pero no su información personal directa.</li>
-            <li><strong>Requisitos Legales:</strong> Podríamos divulgar sus Datos Personales si creemos de buena fe que dicha acción es necesaria para cumplir con una obligación legal, proteger nuestros derechos o propiedad, o proteger la seguridad personal de los usuarios del Servicio o del público.</li>
-        </ul>
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                Finalidad del Uso de Datos
+            </h2>
+            <p>Los datos recopilados se utilizan exclusivamente para:</p>
+            <ul>
+                <li>Prestar, mantener y proteger nuestros Servicios.</li>
+                <li>Gestionar su cuenta de usuario y permitir respaldos.</li>
+                <li>Personalizar su experiencia y ofrecer asistencia técnica.</li>
+                <li>Realizar análisis para mejorar la usabilidad y características del Servicio.</li>
+                <li>Detectar, prevenir y solucionar problemas técnicos o de seguridad.</li>
+                <li>Mostrar anuncios relevantes a través de servicios como Google AdMob.</li>
+            </ul>
 
-        <h2>Seguridad de los Datos</h2>
-        <p>
-            La seguridad de sus datos es una prioridad. Implementamos medidas de seguridad técnicas y organizativas para proteger su información. Sin embargo, recuerde que ningún método de transmisión por Internet o de almacenamiento electrónico es 100% infalible. Aunque nos esforzamos por utilizar medios comercialmente aceptables para proteger sus Datos Personales, no podemos garantizar su seguridad absoluta.
-        </p>
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                Seguridad y Divulgación de Datos
+            </h2>
+            <p>La seguridad de sus datos es fundamental. Implementamos medidas técnicas y organizativas robustas para proteger su información. Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% infalible. No vendemos su información personal. Sus datos pueden ser procesados por servicios de terceros esenciales, como:</p>
+            <ul>
+                <li><b>Bases de Datos en la Nube (p. ej. Firebase):</b> Para almacenar de forma segura la información de su cuenta.</li>
+                <li><b>Proveedores de Análisis (p. ej. Google Analytics):</b> Para procesar datos de uso anónimos.</li>
+                <li><b>Proveedores de Publicidad (p. ej. Google AdMob):</b> Para mostrar anuncios personalizados.</li>
+                <li><b>Requisitos Legales:</b> Podríamos divulgar sus datos si creemos de buena fe que es necesario para cumplir con una obligación legal o proteger la seguridad pública.</li>
+            </ul>
+            
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 9v4c0 2.21-1.79 4-4 4s-4-1.79-4-4V9"></path><path d="M8 11v1a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-1"></path><path d="M12 18.5c-3.04 0-5.5-2.46-5.5-5.5V9.5C6.5 6.46 8.96 4 12 4s5.5 2.46 5.5 5.5v3.5c0 3.04-2.46 5.5-5.5 5.5z"></path></svg>
+                Sus Derechos y Opciones sobre sus Datos
+            </h2>
+            <p>Respetamos su derecho a controlar su información personal. Usted tiene la opción de acceder, rectificar o eliminar sus datos.</p>
+            <h3>Cómo Eliminar sus Datos</h3>
+            <p>
+                Para solicitar la eliminación permanente de su cuenta y todos los datos personales asociados con cualquiera de nuestros servicios, por favor, <strong>envíe un correo electrónico</strong> a nuestra dirección de contacto. Su solicitud debe incluir:
+            </p>
+            <ul>
+                <li><strong>Asunto del correo:</strong> "Solicitud de Baja de Datos"</li>
+                <li><strong>Cuerpo del correo:</strong> El correo electrónico o nombre de usuario asociado a su cuenta y el nombre de la aplicación específica de la que desea darse de baja.</li>
+            </ul>
+            <p>
+                Una vez recibida su solicitud, procederemos a eliminar sus datos de nuestros sistemas en un plazo razonable y le enviaremos una confirmación. Puede contactarnos en: <a href="mailto:danielfroylab@gmail.com"><b>danielfroylab@gmail.com</b></a>
+            </p>
 
-        <h2>Política sobre Niños</h2>
-        <p>
-            Nuestro Servicio no se dirige a menores de 13 años ("Niños"). No recopilamos conscientemente información personal identificable de menores de 13 años. Si usted es un padre o tutor y sabe que su hijo nos ha proporcionado Datos Personales, por favor, póngase en contacto con nosotros. Si nos damos cuenta de que hemos recopilado Datos Personales de niños sin la verificación del consentimiento de los padres, tomamos medidas para eliminar esa información de nuestros servidores.
-        </p>
-
-        <h2>Cambios en esta Política de Privacidad</h2>
-        <p>
-            Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la "Fecha de Vigencia". Se le aconseja que revise esta Política de Privacidad periódicamente para ver si se ha producido algún cambio.
-        </p>
-
-        <h2>Contacto</h2>
-        <p>
-            Si tiene alguna pregunta sobre esta Política de Privacidad, puede ponerse en contacto con nosotros:
-        </p>
-        <ul>
-            <li>Por correo electrónico: <a href="mailto:danielfroylab@gmail.com">danielfroylab@gmail.com</a></li>
-        </ul>
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                Cambios y Contacto
+            </h2>
+            <p>
+                Podemos actualizar esta Política de Privacidad periódicamente. Le notificaremos cualquier cambio publicando la nueva versión en esta misma página y actualizando la "Fecha de Vigencia". Le recomendamos revisar esta política regularmente para estar al tanto de cualquier modificación.
+            </p>
+            <div class="contact-card">
+                <p style="text-align: left; margin: 0;">
+                    <strong>¿Tiene alguna pregunta?</strong><br>
+                    Si tiene alguna duda sobre esta Política de Privacidad, no dude en ponerse en contacto con nosotros.
+                </p>
+                <p style="text-align: left; margin-top: 10px; font-size: 1.1rem;">
+                    <a href="mailto:danielfroylab@gmail.com">danielfroylab@gmail.com</a>
+                </p>
+            </div>
+        </div>
     </div>
 
 </body>
